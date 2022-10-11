@@ -1,0 +1,23 @@
+@charset "utf-8";
+
+section {
+    border: 1px solid black;
+    width: 100%;
+    float: left;
+}    
+
+div {
+    margin: 5px;
+    width: 50px;
+    height: 100px;
+}    
+
+.esquerda {
+    float: left;
+    background: black;
+}    
+
+.direita {
+    float: right;
+    background: purple;
+}    

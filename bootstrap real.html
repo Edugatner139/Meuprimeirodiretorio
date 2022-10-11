@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+    <head>
+        <meta charset="utf-8">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0/dist/css/bootstrap.min.css" rel="stylesheet"
+             integrity="sha384-wEmeIV1mKuiNpC+IOBjI7aAzPcEZeedi5yW5f2yOq55WWLwNGmvvx4Um1vskeMj0" crossorigin="anonymous">
+             <title>Exemplo Bootstrap</title>
+    </head>
+    <body>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="#">Bootstrap Navbar</a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportContent" aria-controls="navbarSupportContent" aria-expanded="false" aria-label="Toggle-navigation">
+            <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collpase navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Sobre</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                        <a class="nav-item dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">Outros</a>
+                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                            <li><a class="dropdown-item" href="#">Projeto</a></li>
+                            <li><a class="drodown-item" href="#">Contato</a></li>
+                            <li>
+                            <hr class="dropdown-divider">
+                            </li>
+                            <li><a class="dropdown-item" href="#">Qualquer coisa</a></li>
+                        </ul>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Desabilitado</a>
+                    </li>
+                </ul>
+            </div>
+            </div>
+        </nav>
+        <header class="p-5 bg-warning">
+            <div class="container-fluid py-5">
+                <h1 class="display-5 fw-bold">Bem-vindo ao meu Website</h1>
+                <p class="col-md-8 fs-4">O Site feito por Gugu aranha, quando a lenda andava sem as pernas.
+                    <br>
+                    Dando piruetas ao contrário e acabando com a inflação do banco Santo André.
+                </p>
+                <a class="btn btn-primary btn-lg" href="#" role="button">Aprenda Mais</a>
+            </div>
+            </header>
+            <!--tipografia-->
+            <section class="container text-center">
+                <h1 class="pb-2 mt-4 mb-2 border-bottom">Hallo Welt <small>|   Sekundärtext</small></h1>
+                <p class="lead">Schwer mit den Schätzen des Orients beladen
+                    ziehet ein Schifflein am Horizont dahin.
+                    Sitzen zwei Madel am Ufer des Meeres
+                    flüstert die eine der andern leis ins Ohr
+                    Frage doch das Meer, ob es Liebe kann scheiden,
+                    frage doch das Herz, ob es Treue brechen kann.</p>
+                    <p><mark>Schifflein, sie fuhren, und Schifflein, sie kamen,
+                        einst kam die Nachricht aus fernem, fremden Land.
+                        </mark>Aber es waren nur wenige Zeilen,
+                        dass eine andre er <del>>auserkoren hat.</del>
+                        Frage doch das Meer,<u> ob es Liebe kann scheiden,</u>
+                        frage doch das Herz, ob es Treue brechen kann.</p>
+                        <hr>
+            </section>
+            <!--Alinhamento e transformação-->
+            <section class="container">
+                <p class="text-start text-lowercase">Texto alinhado à esquerda da área de visualização.</p>
+                <p class="text-center text-uppercase">Texto alinhado centralizado na área de visualização.</p>
+                <p class="text-end">Texto alinhado à direita da área de visualização.</p>
+                <p class="text-nowrap">Texto sem quebra de linha. Teure Irene, so schrieb er in jedem Briefe,
+                    teure Irene, so nannte er sie stets.</p>
+                    <hr>
+            </section>
+            <section class="container">
+                <!--floats-->
+                <div class="float-start">Float no início da área de visualização</div><br>
+                <div class="float-end">Float no final da área de visualização</div><br>
+                <div class="float-none">Sem float na área de visaulização</div>
+                <!--Limpa o float-->
+                <div class="clearfix"></div>
+                <hr>
+            </section>
+            <!--BLockquote-->
+            <section class="container">
+                <blockquote class="blockquote">
+                    <p>Aber es waren nur wenige Zeilen,
+                        dass eine andre er auserkoren hat.</p>
+                        <figcaption class="blockquote-footer">
+                            <cite title="Source Title">Erwin Rommel</cite>
+                        </figcaption>
+                </blockquote>
+                <hr>
+            </section>
+            <!--Listas-->
+            <section class="container">
+                <ul class="list-unstyled">
+                    <li>Item um</li>
+                    <li>Item dois</li>
+                    <li>Item três</li>
+                    <li>Item quatro</li> 
+                </ul>
+                <ul class="list-inline">
+                    <li class="list-inline-item">Item um</li>
+                    <li class="list-inline-item">Item dois</li>
+                    <li class="list-inline-item">Item três</li>
+                    <li class="list-inline-item">Item quatro</li>
+                </ul>
+                <ol>
+                    <li>Item um</li>
+                    <li>Item dois</li>
+                    <li>Item três</li>
+                    <li>Item quatro</li>
+                </ol>
+                <hr>
+            </section>
+            <!--Código-->
+            <section class="container">
+                <code>&lt;h1&gt;Heading Text&lt;/h1&gt;</code>
+                <br><br>
+                Mude o diretório com o comando <kbd></kbd>
+            </section>
+        
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    </body>
+</html>
